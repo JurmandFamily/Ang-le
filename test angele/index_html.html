@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[BRAND_NAME] - Créations crochet fait main, sur-mesure et écoresponsables à [CITY]</title>
+    <meta name="description" content="Découvrez les créations uniques en crochet de [BRAND_NAME] : doudous, vêtements bébé et accessoires déco fait main, sur-mesure et écoresponsables à [CITY]. Coton bio certifié GOTS.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="[BRAND_NAME] - Créations crochet fait main et sur-mesure">
+    <meta property="og:description" content="Doudous, vêtements bébé et accessoires déco en crochet fait main. Pièces uniques, coton bio, sur-mesure.">
+    <meta property="og:image" content="./assets/img/placeholders/og-image.jpg">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="[BRAND_NAME] - Créations crochet fait main">
+    <meta name="twitter:description" content="Doudous et vêtements bébé en crochet fait main, sur-mesure et écoresponsables">
+    <meta name="twitter:image" content="./assets/img/placeholders/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="./manifest.webmanifest">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "[BRAND_NAME]",
+        "description": "Artisane créatrice de pièces uniques en crochet fait main, sur-mesure et écoresponsables",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "[CITY]",
+            "addressCountry": "FR"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "[EMAIL]",
+            "contactType": "customer service",
+            "availableLanguage": "French"
+        },
+        "sameAs": [
+            "[INSTAGRAM]",
+            "[ETSY_URL]"
+        ],
+        "logo": "./assets/img/placeholders/logo.svg",
+        "image": "./assets/img/placeholders/og-image.jpg"
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "[BRAND_NAME]",
+        "url": "",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "/catalogue.html?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header__content">
+                <a href="/" class="logo" aria-label="Retour à l'accueil">
+                    <svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logo-title">
+                        <title id="logo-title">[BRAND_NAME] - Logo</title>
+                        <text x="10" y="25" font-family="Fraunces" font-size="18" font-weight="600" fill="var(--charcoal)">[BRAND_NAME]</text>
+                        <circle cx="100" cy="20" r="8" fill="var(--terracotta)" opacity="0.8"/>
+                        <circle cx="95" cy="15" r="4" fill="var(--sage)" opacity="0.6"/>
+                    </svg>
+                </a>
+                
+                <nav class="nav" role="navigation" aria-label="Navigation principale">
+                    <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Ouvrir le menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <ul class="nav__menu" id="nav-menu">
+                        <li><a href="/" class="nav__link nav__link--active">Accueil</a></li>
+                        <li><a href="/catalogue.html" class="nav__link">Catalogue</a></li>
+                        <li><a href="/sur-mesure.html" class="nav__link">Sur-mesure</a></li>
+                        <li><a href="/a-propos.html" class="nav__link">À propos</a></li>
+                        <li><a href="/blog.html" class="nav__link">Blog</a></li>
+                        <li><a href="/contact.html" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main role="main">
+        <!-- Hero Section -->
+        <section class="hero" role="banner">
+            <div class="hero__image">
+                <picture>
+                    <source srcset="./assets/img/placeholders/hero.webp" type="image/webp">
+                    <img src="./assets/img/placeholders/hero.jpg" alt="Atelier de crochet chaleureux avec créations fait main en coton bio, doudous et vêtements bébé disposés sur une table en bois naturel" loading="eager" decoding="sync">
+                </picture>
+            </div>
+            <div class="hero__content">
+                <div class="container">
+                    <h1 class="hero__title">Fait main, sur-mesure, écoresponsable</h1>
+                    <p class="hero__subtitle">Créations uniques en crochet pour les tout-petits et la maison. Chaque pièce raconte une histoire, la vôtre.</p>
+                    <div class="hero__cta">
+                        <a href="/sur-mesure.html" class="btn btn--primary">Commander sur mesure</a>
+                        <a href="/catalogue.html" class="btn btn--secondary">Voir le catalogue</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust Badges -->
+        <section class="trust-badges">
+            <div class="container">
+                <div class="trust-badges__grid">
+                    <div class="trust-badge">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--terracotta)" stroke-width="2">
+                            <path d="M20 6L9 17l-5-5"/>
+                        </svg>
+                        <span>Fait main en France</span>
+                    </div>
+                    <div class="trust-badge">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                        </svg>
+                        <span>Coton bio certifié GOTS</span>
+                    </div>
+                    <div class="trust-badge">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--terracotta)" stroke-width="2">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                        </svg>
+                        <span>Pièces uniques</span>
+                    </div>
+                    <div class="trust-badge">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2">
+                            <path d="M3 7V5a2 2 0 0 1 2-2h2"/>
+                            <path d="M17 3h2a2 2 0 0 1 2 2v2"/>
+                            <path d="M21 17v2a2 2 0 0 1-2 2h-2"/>
+                            <path d="M7 21H5a2 2 0 0 1-2-2v-2"/>
+                            <circle cx="12" cy="12" r="1"/>
+                        </svg>
+                        <span>Emballage recyclé</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Storytelling -->
+        <section class="storytelling">
+            <div class="container">
+                <header class="section-header">
+                    <h2>De fil en aiguille</h2>
+                    <p class="section-subtitle">L'histoire de créations pensées avec le cœur</p>
+                </header>
+                
+                <div class="storytelling__grid">
+                    <article class="story-card">
+                        <div class="story-card__image">
+                            <picture>
+                                <source srcset="./assets/img/placeholders/story-1.webp" type="image/webp">
+                                <img src="./assets/img/placeholders/story-1.jpg" alt="Mains d'artisane travaillant délicatement au crochet avec un fil de coton bio dans des tons naturels" loading="lazy" decoding="async">
+                            </picture>
+                        </div>
+                        <div class="story-card__content">
+                            <h3>La rencontre avec le crochet</h3>
+                            <p>Tout a commencé par une envie simple : créer quelque chose de beau avec mes mains. Le crochet m'a offert cette liberté créative, cette possibilité de donner vie à des idées, point par point, avec patience et amour.</p>
+                        </div>
+                    </article>
+                    
+                    <article class="story-card">
+                        <div class="story-card__image">
+                            <picture>
+                                <source srcset="./assets/img/placeholders/story-2.webp" type="image/webp">
+                                <img src="./assets/img/placeholders/story-2.jpg" alt="Collection de pelotes de coton bio certifié GOTS dans des couleurs naturelles disposées harmonieusement" loading="lazy" decoding="async">
+                            </picture>
+                        </div>
+                        <div class="story-card__content">
+                            <h3>Des valeurs qui comptent</h3>
+                            <p>Chaque création porte en elle mes convictions : le respect de l'artisanat, la qualité des matières premières et l'attention portée aux détails. Parce que les plus beaux cadeaux sont ceux qui traversent le temps.</p>
+                        </div>
+                    </article>
+                    
+                    <article class="story-card">
+                        <div class="story-card__image">
+                            <picture>
+                                <source srcset="./assets/img/placeholders/story-3.webp" type="image/webp">
+                                <img src="./assets/img/placeholders/story-3.jpg" alt="Emballage écologique en papier kraft recyclé avec ruban en coton naturel pour une création crochet" loading="lazy" decoding="async">
+                            </picture>
+                        </div>
+                        <div class="story-card__content">
+                            <h3>Une démarche durable</h3>
+                            <p>De la sélection du coton bio aux emballages recyclés, chaque choix compte. J'optimise les chutes de fil, privilégie les teintures naturelles et emballe vos commandes avec soin dans des matériaux respectueux de l'environnement.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sur-mesure Highlight -->
+        <section class="custom-highlight">
+            <div class="container">
+                <div class="custom-highlight__content">
+                    <div class="custom-highlight__text">
+                        <h2>Votre création sur-mesure en 3 étapes</h2>
+                        <p>Transformons ensemble votre idée en une pièce unique qui vous ressemble</p>
+                        
+                        <ol class="steps">
+                            <li class="step">
+                                <div class="step__number">1</div>
+                                <div class="step__content">
+                                    <h3>Échange et brief</h3>
+                                    <p>Partagez-moi votre vision : couleurs, style, usage. Je vous conseille sur les matières et dimensions.</p>
+                                </div>
+                            </li>
+                            <li class="step">
+                                <div class="step__number">2</div>
+                                <div class="step__content">
+                                    <h3>Création unique</h3>
+                                    <p>Je réalise votre pièce avec soin, en respectant vos souhaits et mon savoir-faire artisanal.</p>
+                                </div>
+                            </li>
+                            <li class="step">
+                                <div class="step__number">3</div>
+                                <div class="step__content">
+                                    <h3>Livraison soignée</h3>
+                                    <p>Votre création vous est livrée dans un emballage recyclé, prête à offrir ou à adopter.</p>
+                                </div>
+                            </li>
+                        </ol>
+                        
+                        <div class="custom-highlight__meta">
+                            <p><strong>Délais :</strong> 2 à 3 semaines selon la complexité</p>
+                            <p><strong>Options :</strong> Personnalisation couleurs, broderie prénom, choix matières</p>
+                        </div>
+                        
+                        <a href="/sur-mesure.html" class="btn btn--primary">Commencer ma création</a>
+                    </div>
+                    
+                    <div class="custom-highlight__image">
+                        <picture>
+                            <source srcset="./assets/img/placeholders/custom-process.webp" type="image/webp">
+                            <img src="./assets/img/placeholders/custom-process.jpg" alt="Processus de création sur-mesure montrant esquisse, crochetage et produit fini d'un doudou personnalisé" loading="lazy" decoding="async">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="featured-products">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Créations vedettes</h2>
+                    <p class="section-subtitle">Découvrez quelques-unes de mes pièces favorites</p>
+                </header>
+                
+                <div class="products-grid" id="featured-products">
+                    <!-- Produits chargés via JavaScript -->
+                </div>
+                
+                <div class="section-footer">
+                    <a href="/catalogue.html" class="btn btn--secondary">Voir tout le catalogue</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Ils me font confiance</h2>
+                    <p class="section-subtitle">Quelques mots de parents et proches comblés</p>
+                </header>
+                
+                <div class="testimonials__grid">
+                    <blockquote class="testimonial">
+                        <div class="testimonial__content">
+                            <p>« Un doudou lapin absolument magnifique pour ma petite Léa ! La douceur du coton bio et la finition parfaite. Elle ne s'en sépare plus depuis 6 mois. Merci pour ce travail d'artiste ! »</p>
+                        </div>
+                        <cite class="testimonial__author">
+                            <strong>Marie, maman de Léa (8 mois)</strong>
+                            <span>Doudou Lapin Lune personnalisé</span>
+                        </cite>
+                    </blockquote>
+                    
+                    <blockquote class="testimonial">
+                        <div class="testimonial__content">
+                            <p>« J'ai commandé un cardigan sur-mesure pour la naissance de mon neveu. Le résultat dépasse mes attentes : couleurs parfaites, taille idéale et broderie du prénom adorable. Un cadeau unique ! »</p>
+                        </div>
+                        <cite class="testimonial__author">
+                            <strong>Antoine, oncle attentionné</strong>
+                            <span>Cardigan Noisette personnalisé</span>
+                        </cite>
+                    </blockquote>
+                    
+                    <blockquote class="testimonial">
+                        <div class="testimonial__content">
+                            <p>« Échanges très pro, conseils avisés et livraison rapide. Le petit sac rangement que j'ai reçu est parfait pour la chambre de bébé. Je recommande vivement ! »</p>
+                        </div>
+                        <cite class="testimonial__author">
+                            <strong>Sophie, future maman</strong>
+                            <span>Panier Rangement Sauge</span>
+                        </cite>
+                    </blockquote>
+                    
+                    <blockquote class="testimonial">
+                        <div class="testimonial__content">
+                            <p>« Des créations qui ont une âme ! Ma fille adore ses petits chaussons et ils tiennent parfaitement bien. Très contente de ma découverte, je reviendrai ! »</p>
+                        </div>
+                        <cite class="testimonial__author">
+                            <strong>Émilie, maman de Chloé (14 mois)</strong>
+                            <span>Chaussons Bébé Terracotta</span>
+                        </cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="/catalogue.html">Catalogue</a></li>
+                        <li><a href="/sur-mesure.html">Sur-mesure</a></li>
+                        <li><a href="/a-propos.html">À propos</a></li>
+                        <li><a href="/blog.html">Blog</a></li>
+                        <li><a href="/faq.html">FAQ</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h3>Suivez-moi</h3>
+                    <div class="social-links">
+                        <a href="[INSTAGRAM]" target="_blank" rel="noopener noreferrer" aria-label="Suivre sur Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="[ETSY_URL]" target="_blank" rel="noopener noreferrer" aria-label="Boutique Etsy" id="etsy-link" style="display: none;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9.16 12.975h2.753v-.48c0-.762-.283-1.127-.849-1.127-.566 0-.849.365-.849 1.127v.48zm6.779-3.391a1.102 1.102 0 0 0-1.103-1.103h-.198v2.206h.198a1.103 1.103 0 0 0 1.103-1.103zM24 12c0 6.627-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0s12 5.373 12 12zM8.566 7.475c-.97 0-1.724.32-2.264.96l.566 1.018c.34-.48.717-.72 1.132-.72.415 0 .594.24.594.72v.48H6.94c-1.131 0-1.698.72-1.698 1.681 0 .96.566 1.681 1.698 1.681h1.153c.566 0 .905-.24 1.132-.72v.48h1.508V9.155c0-1.121-.623-1.68-1.168-1.68zm2.717-1.92v2.16h1.508V5.555H11.283zm3.206 3.36c0-1.44.906-2.4 2.264-2.4s2.264.96 2.264 2.4-.906 2.4-2.264 2.4-2.264-.96-2.264-2.4zm4.906-2.16v.48c.34-.48.717-.72 1.132-.72.415 0 .594.24.594.72v4.32h1.508V9.635c0-1.121-.623-1.68-1.698-1.68-.566 0-1.036.24-1.244.72V6.755h-1.292z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h3>Contact</h3>
+                    <p>Email : <a href="mailto:[EMAIL]">[EMAIL]</a></p>
+                    <p>Basée à [CITY]</p>
+                    <p>Délais : 2-3 semaines</p>
+                </div>
+                
+                <div class="footer__section">
+                    <h3>Informations</h3>
+                    <ul>
+                        <li><a href="/mentions-legales.html">Mentions légales</a></li>
+                        <li><a href="/cgv.html">CGV</a></li>
+                        <li><a href="/politique-confidentialite.html">Confidentialité</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2024 [BRAND_NAME]. Tous droits réservés. Fait avec ❤️ à [CITY].</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script defer src="./assets/js/main.js"></script>
+</body>
+</html>
