@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue - Créations crochet fait main | [BRAND_NAME]</title>
+    <meta name="description" content="Découvrez toutes les créations uniques de [BRAND_NAME] : doudous, vêtements bébé, accessoires déco en crochet fait main. Pièces sur-mesure et écoresponsables.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Catalogue - Créations crochet fait main | [BRAND_NAME]">
+    <meta property="og:description" content="Découvrez toutes mes créations uniques en crochet fait main : doudous, vêtements bébé et accessoires déco.">
+    <meta property="og:image" content="./assets/img/placeholders/og-catalogue.jpg">
+    <meta property="og:url" content="/catalogue.html">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="./manifest.webmanifest">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <!-- Breadcrumb JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Catalogue",
+                "item": "/catalogue.html"
+            }
+        ]
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header__content">
+                <a href="/" class="logo" aria-label="Retour à l'accueil">
+                    <svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logo-title">
+                        <title id="logo-title">[BRAND_NAME] - Logo</title>
+                        <text x="10" y="25" font-family="Fraunces" font-size="18" font-weight="600" fill="var(--charcoal)">[BRAND_NAME]</text>
+                        <circle cx="100" cy="20" r="8" fill="var(--terracotta)" opacity="0.8"/>
+                        <circle cx="95" cy="15" r="4" fill="var(--sage)" opacity="0.6"/>
+                    </svg>
+                </a>
+                
+                <nav class="nav" role="navigation" aria-label="Navigation principale">
+                    <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Ouvrir le menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <ul class="nav__menu" id="nav-menu">
+                        <li><a href="/" class="nav__link">Accueil</a></li>
+                        <li><a href="/catalogue.html" class="nav__link nav__link--active">Catalogue</a></li>
+                        <li><a href="/sur-mesure.html" class="nav__link">Sur-mesure</a></li>
+                        <li><a href="/a-propos.html" class="nav__link">À propos</a></li>
+                        <li><a href="/blog.html" class="nav__link">Blog</a></li>
+                        <li><a href="/contact.html" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="Fil d'Ariane">
+        <div class="container">
+            <ol class="breadcrumb__list">
+                <li><a href="/">Accueil</a></li>
+                <li aria-current="page">Catalogue</li>
+            </ol>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main role="main">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <div class="page-header__content">
+                    <h1>Mon catalogue de créations</h1>
+                    <p class="page-header__subtitle">Découvrez toutes mes pièces uniques en crochet fait main. Chaque création peut être personnalisée selon vos souhaits.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filters & Search -->
+        <section class="catalog-filters">
+            <div class="container">
+                <div class="filters-panel">
+                    <!-- Search -->
+                    <div class="filter-group filter-group--search">
+                        <label for="search-input" class="filter-label">Rechercher</label>
+                        <input type="search" id="search-input" placeholder="Nom ou description..." class="search-input">
+                    </div>
+
+                    <!-- Categories -->
+                    <div class="filter-group">
+                        <h3 class="filter-title">Catégories</h3>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox" class="filter-category" value="doudous">
+                                <span>Doudous</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" class="filter-category" value="vetements">
+                                <span>Vêtements bébé</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" class="filter-category" value="accessoires">
+                                <span>Accessoires</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" class="filter-category" value="decoration">
+                                <span>Décoration</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Colors -->
+                    <div class="filter-group">
+                        <h3 class="filter-title">Couleurs</h3>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox" class="filter-color" value="ecru">
+                                <span class="color-swatch" style="background-color: var(--ecru); border: 1px solid #ddd;"></span>
+                                <span>Écru</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" class="filter-color" value="terracotta">
+                                <span class="color-swatch" style="background-color: var(--terracotta);"></span>
+                                <span>Terracotta</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" class="filter-color" value="sage">
+                                <span class="color-swatch" style="background-color: var(--sage);"></span>
+                                <span>Sauge</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" class="filter-color" value="rose">
+                                <span class="color-swatch" style="background-color: var(--rose);"></span>
+                                <span>Rose</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" class="filter-color" value="blanc">
+                                <span class="color-swatch" style="background-color: white; border: 1px solid #ddd;"></span>
+                                <span>Blanc</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Materials -->
+                    <div class="filter-group">
+                        <h3 class="filter-title">Matières</h3>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox" class="filter-material" value="coton-bio">
+                                <span>Coton bio GOTS</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" class="filter-material" value="laine-merinos">
+                                <span>Laine mérinos</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" class="filter-material" value="bambou">
+                                <span>Fibre de bambou</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Sort & Actions -->
+                    <div class="filters-actions">
+                        <div class="sort-group">
+                            <label for="sort-select" class="filter-label">Trier par</label>
+                            <select id="sort-select" class="sort-select">
+                                <option value="newest">Plus récentes</option>
+                                <option value="name-asc">Nom A-Z</option>
+                                <option value="name-desc">Nom Z-A</option>
+                                <option value="price-asc">Prix croissant</option>
+                                <option value="price-desc">Prix décroissant</option>
+                            </select>
+                        </div>
+                        <button type="button" id="clear-filters" class="btn btn--ghost">Effacer les filtres</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results -->
+        <section class="catalog-results">
+            <div class="container">
+                <div class="results-header">
+                    <p id="results-count" class="results-count">Chargement...</p>
+                </div>
+
+                <div class="products-grid" id="products-container">
+                    <!-- Products loaded via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="catalog-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Envie d'une création personnalisée ?</h2>
+                    <p>Toutes mes créations peuvent être adaptées selon vos goûts : couleurs, tailles, broderie de prénom... Parlons-en ensemble !</p>
+                    <a href="/sur-mesure.html" class="btn btn--primary">Créer sur-mesure</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="/catalogue.html">Catalogue</a></li>
+                        <li><a href="/sur-mesure.html">Sur-mesure</a></li>
+                        <li><a href="/a-propos.html">À propos</a></li>
+                        <li><a href="/blog.html">Blog</a></li>
+                        <li><a href="/faq.html">FAQ</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h3>Suivez-moi</h3>
+                    <div class="social-links">
+                        <a href="[INSTAGRAM]" target="_blank" rel="noopener noreferrer" aria-label="Suivre sur Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="[ETSY_URL]" target="_blank" rel="noopener noreferrer" aria-label="Boutique Etsy" id="etsy-link" style="display: none;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9.16 12.975h2.753v-.48c0-.762-.283-1.127-.849-1.127-.566 0-.849.365-.849 1.127v.48zm6.779-3.391a1.102 1.102 0 0 0-1.103-1.103h-.198v2.206h.198a1.103 1.103 0 0 0 1.103-1.103zM24 12c0 6.627-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0s12 5.373 12 12zM8.566 7.475c-.97 0-1.724.32-2.264.96l.566 1.018c.34-.48.717-.72 1.132-.72.415 0 .594.24.594.72v.48H6.94c-1.131 0-1.698.72-1.698 1.681 0 .96.566 1.681 1.698 1.681h1.153c.566 0 .905-.24 1.132-.72v.48h1.508V9.155c0-1.121-.623-1.68-1.168-1.68zm2.717-1.92v2.16h1.508V5.555H11.283zm3.206 3.36c0-1.44.906-2.4 2.264-2.4s2.264.96 2.264 2.4-.906 2.4-2.264 2.4-2.264-.96-2.264-2.4zm4.906-2.16v.48c.34-.48.717-.72 1.132-.72.415 0 .594.24.594.72v4.32h1.508V9.635c0-1.121-.623-1.68-1.698-1.68-.566 0-1.036.24-1.244.72V6.755h-1.292z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h3>Contact</h3>
+                    <p>Email : <a href="mailto:[EMAIL]">[EMAIL]</a></p>
+                    <p>Basée à [CITY]</p>
+                    <p>Délais : 2-3 semaines</p>
+                </div>
+                
+                <div class="footer__section">
+                    <h3>Informations</h3>
+                    <ul>
+                        <li><a href="/mentions-legales.html">Mentions légales</a></li>
+                        <li><a href="/cgv.html">CGV</a></li>
+                        <li><a href="/politique-confidentialite.html">Confidentialité</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2024 [BRAND_NAME]. Tous droits réservés. Fait avec ❤️ à [CITY].</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script defer src="./assets/js/main.js"></script>
+
+    <style>
+        /* Catalog-specific styles */
+        .breadcrumb {
+            background-color: var(--white);
+            padding: var(--space-sm) 0;
+            border-bottom: 1px solid rgba(140, 161, 124, 0.2);
+        }
+        
+        .breadcrumb__list {
+            display: flex;
+            gap: var(--space-xs);
+            font-size: 0.9rem;
+        }
+        
+        .breadcrumb__list li:not(:last-child)::after {
+            content: '/';
+            margin-left: var(--space-xs);
+            color: var(--sage);
+        }
+        
+        .breadcrumb__list a {
+            color: var(--sage);
+            transition: color var(--transition-fast);
+        }
+        
+        .breadcrumb__list a:hover {
+            color: var(--terracotta);
+        }
+        
+        .page-header {
+            background-color: var(--white);
+            padding: var(--space-2xl) 0;
+            text-align: center;
+        }
+        
+        .page-header__subtitle {
+            font-size: 1.1rem;
+            color: var(--sage);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .catalog-filters {
+            background-color: var(--ecru);
+            padding: var(--space-xl) 0;
+            border-bottom: 1px solid rgba(140, 161, 124, 0.2);
+        }
+        
+        .filters-panel {
+            display: grid;
+            grid-template-columns: 1fr auto auto;
+            gap: var(--space-xl);
+            align-items: start;
+        }
+        
+        .filter-group--search {
+            grid-column: 1 / -1;
+            margin-bottom: var(--space-lg);
+        }
+        
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-sm);
+        }
+        
+        .filter-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--charcoal);
+            margin-bottom: var(--space-xs);
+        }
+        
+        .filter-label {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--charcoal);
+        }
+        
+        .filter-options {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-xs);
+        }
+        
+        .filter-option {
+            display: flex;
+            align-items: center;
+            gap: var(--space-xs);
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+        
+        .color-swatch {
+            width: 16px;
+            height: 16px;
+            border-radius: var(--radius-sm);
+            flex-shrink: 0;
+        }
+        
+        .search-input,
+        .sort-select {
+            padding: var(--space-sm);
+            border: 1px solid #ddd;
+            border-radius: var(--radius-sm);
+            font-size: 0.9rem;
+        }
+        
+        .search-input {
+            width: 100%;
+            max-width: 300px;
+        }
+        
+        .filters-actions {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-md);
+            align-items: flex-start;
+        }
+        
+        .sort-group {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-xs);
+        }
+        
+        .catalog-results {
+            padding: var(--space-xl) 0;
+        }
+        
+        .results-header {
+            margin-bottom: var(--space-lg);
+        }
+        
+        .results-count {
+            color: var(--sage);
+            font-weight: 500;
+        }
+        
+        .catalog-cta {
+            background-color: var(--white);
+            padding: var(--space-3xl) 0;
+            text-align: center;
+        }
+        
+        .cta-content h2 {
+            color: var(--terracotta);
+            margin-bottom: var(--space-md);
+        }
+        
+        .cta-content p {
+            font-size: 1.1rem;
+            color: var(--sage);
+            max-width: 600px;
+            margin: 0 auto var(--space-xl);
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: var(--space-3xl) 0;
+            color: var(--sage);
+        }
+        
+        /* Mobile responsive */
+        @media (max-width: 1023px) {
+            .filters-panel {
+                grid-template-columns: 1fr;
+                gap: var(--space-lg);
+            }
+            
+            .filter-group--search {
+                grid-column: 1;
+            }
+            
+            .filters-actions {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+        
+        @media (max-width: 767px) {
+            .filter-options {
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: var(--space-sm);
+            }
+            
+            .filters-actions {
+                flex-direction: column;
+                align-items: stretch;
+            }
+        }
+    </style>
+</body>
+</html>
+                        

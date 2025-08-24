@@ -1,0 +1,150 @@
+[
+  {
+    "id": 1,
+    "slug": "doudou-lapin-lune",
+    "name": "Doudou Lapin Lune",
+    "category": "doudous",
+    "description": "Adorable doudou lapin tout doux en coton bio écru et terracotta. Parfait compagnon pour les nuits sereines de bébé.",
+    "images": [
+      "./assets/img/placeholders/doudou-lapin-1.jpg",
+      "./assets/img/placeholders/doudou-lapin-2.jpg"
+    ],
+    "alt": "Doudou lapin en crochet fait main, coton bio écru et terracotta, oreilles tombantes et petite queue pompom",
+    "price": 35,
+    "couleurs": ["ecru", "terracotta"],
+    "matieres": ["coton-bio"],
+    "delai": "2-3 semaines",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "slug": "cardigan-bebe-noisette",
+    "name": "Cardigan Bébé Noisette",
+    "category": "vetements",
+    "description": "Gilet bébé intemporel en laine mérinos douce, boutons bois naturel. Disponible de la naissance à 12 mois.",
+    "images": [
+      "./assets/img/placeholders/cardigan-noisette-1.jpg",
+      "./assets/img/placeholders/cardigan-noisette-2.jpg"
+    ],
+    "alt": "Cardigan bébé en crochet couleur noisette, laine mérinos, boutons en bois naturel, col rond",
+    "price": 45,
+    "couleurs": ["ecru", "sage"],
+    "matieres": ["laine-merinos"],
+    "delai": "3 semaines",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "slug": "hochet-feuille-sauge",
+    "name": "Hochet Feuille Sauge",
+    "category": "accessoires",
+    "description": "Hochet sensoriel en forme de feuille, coton bio et grelot doux. Stimule l'éveil et la motricité fine de bébé.",
+    "images": [
+      "./assets/img/placeholders/hochet-feuille-1.jpg"
+    ],
+    "alt": "Hochet en forme de feuille crocheté en coton bio couleur sauge avec grelot intérieur",
+    "price": 18,
+    "couleurs": ["sage", "ecru"],
+    "matieres": ["coton-bio"],
+    "delai": "2 semaines",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "slug": "panier-rangement-naturel",
+    "name": "Panier Rangement Naturel",
+    "category": "decoration",
+    "description": "Grand panier de rangement en coton recyclé, parfait pour la chambre de bébé. Forme stable et poignées renforcées.",
+    "images": [
+      "./assets/img/placeholders/panier-rangement-1.jpg",
+      "./assets/img/placeholders/panier-rangement-2.jpg"
+    ],
+    "alt": "Panier de rangement rond en crochet, coton naturel, poignées tressées, pour chambre bébé",
+    "price": 55,
+    "couleurs": ["ecru", "sage"],
+    "matieres": ["coton-bio"],
+    "delai": "2-3 semaines",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "slug": "chaussons-bebe-terracotta",
+    "name": "Chaussons Bébé Terracotta",
+    "category": "vetements",
+    "description": "Petits chaussons tout doux pour les premiers pas. Semelle antidérapante et liens de cheville sécurisés.",
+    "images": [
+      "./assets/img/placeholders/chaussons-terracotta-1.jpg"
+    ],
+    "alt": "Paire de chaussons bébé en crochet couleur terracotta, liens de cheville, semelle antidérapante",
+    "price": 25,
+    "couleurs": ["terracotta", "sage", "ecru"],
+    "matieres": ["coton-bio"],
+    "delai": "2 semaines",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "slug": "mobile-nuages-roses",
+    "name": "Mobile Nuages Roses",
+    "category": "decoration",
+    "description": "Mobile décoratif avec nuages et étoiles en dégradé de roses pastel. Structure bois naturel certifié FSC.",
+    "images": [
+      "./assets/img/placeholders/mobile-nuages-1.jpg",
+      "./assets/img/placeholders/mobile-nuages-2.jpg"
+    ],
+    "alt": "Mobile bébé avec nuages et étoiles crochetés en tons roses pastel, structure bois naturel",
+    "price": 65,
+    "couleurs": ["rose", "blanc"],
+    "matieres": ["coton-bio"],
+    "delai": "3 semaines",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "slug": "doudou-ours-calin",
+    "name": "Doudou Ours Câlin",
+    "category": "doudous",
+    "description": "Ours tout doux aux bras articulés, parfait pour les câlins. Yeux brodés sécurisés et ventre tout rond.",
+    "images": [
+      "./assets/img/placeholders/doudou-ours-1.jpg"
+    ],
+    "alt": "Doudou ours en crochet beige avec bras articulés, yeux brodés, ventre arrondi, fait main",
+    "price": 40,
+    "couleurs": ["ecru", "sage"],
+    "matieres": ["coton-bio"],
+    "delai": "2-3 semaines",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "slug": "bonnet-bebe-torsade",
+    "name": "Bonnet Bébé Torsadé",
+    "category": "vetements",
+    "description": "Bonnet chaud avec torsades délicates et pompon assorti. Douceur laine mérinos pour l'hiver de bébé.",
+    "images": [
+      "./assets/img/placeholders/bonnet-torsade-1.jpg"
+    ],
+    "alt": "Bonnet bébé en laine mérinos avec motif torsadé et pompon, couleur écru",
+    "price": 28,
+    "couleurs": ["ecru", "sage", "terracotta"],
+    "matieres": ["laine-merinos"],
+    "delai": "2 semaines",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "slug": "attache-tetine-personnalisee",
+    "name": "Attache-Tétine Personnalisée",
+    "category": "accessoires",
+    "description": "Attache-tétine avec prénom brodé et perles bois naturel. Clip sécurisé conforme aux normes CE.",
+    "images": [
+      "./assets/img/placeholders/attache-tetine-1.jpg"
+    ],
+    "alt": "Attache-tétine personnalisée en coton bio avec perles bois naturel et prénom brodé",
+    "price": 22,
+    "couleurs": ["ecru", "sage", "terracotta", "rose"],
+    "matieres": ["coton-bio"],
+    "delai": "2 semaines",
+    "featured": false
+  }
+]

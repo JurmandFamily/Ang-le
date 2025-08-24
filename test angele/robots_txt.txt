@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: /sitemap.xml
+
+# Disallow system files
+Disallow: /assets/
+Disallow: /data/
+Disallow: /.git/
+Disallow: /README.md
+
+# Allow images for search engines
+Allow: /assets/img/
+
+# Crawl delay (optional - remove if not needed)
+Crawl-delay: 1
